@@ -135,7 +135,7 @@ export default function Batches() {
 
   return (
     <div className="page-container">
-      <h2>🔥 Batch Management</h2>
+      <h2> Batch Management</h2>
 
       {/* Course + Filter */}
       <div className="form-section">

@@ -23,7 +23,6 @@ public class AssignmentSubmissionService {
 
         Student student = studentRepository.findById(studentId)
                 .orElseThrow(() -> new RuntimeException("Student not found"));
-
         AssignmentSubmission submission = AssignmentSubmission.builder()
                 .assignment(assignment)
                 .student(student)
